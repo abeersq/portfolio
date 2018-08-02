@@ -4,6 +4,18 @@ body{
   background: url(744600.jpg) no-repeat;
   background-size: cover;
 }
+
+@media only screen and (max-width: 400px) {
+    body {
+  background: url(744600.jpg) no-repeat;
+    }
+}
+@media only screen and (max-width: 600px) {
+    [class*="col-"] {
+        width: 100%;
+    }
+}
+
 .box{
   width: 600px;
   background: rgba(0, 0, 0,0.4);
